@@ -46,4 +46,7 @@ int main() {
 	Stack stack;
 	stack.Push(5);
 	stack.Print();
+	stack.Push(10);
+	stack.Print();
+
 }
