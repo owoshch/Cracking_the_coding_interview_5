@@ -11,3 +11,7 @@ def get_permutations(string, characters, permutations):
                         permutations)
     return permutations
 
+def find_all_permutations(characters):
+    if len(characters):
+        return get_permutations("", characters, [])
+    return [""]
